@@ -12,9 +12,13 @@ public class Tabuada {
         int opcaoSelecionada = sc.nextInt();
 
         switch (opcaoSelecionada) {
-            case 1: System.out.println("Implementar...");
+            case 1: System.out.println("Qual numero você deseja calcular?");
+                    int numeroEscolhido = sc.nextInt();
+                    for (int i = 1; i <= 10; i++) {
+                        System.out.println(numeroEscolhido + " x " + i + " = " + numeroEscolhido * i);
+                    }
             break;
-            case 2: System.out.println("Implementar 2...");
+            case 2: System.out.println("Implementar 2..."); //estas variações ainda vou implementar
             break;
             case 3: int numeroInicial = 1;
 
