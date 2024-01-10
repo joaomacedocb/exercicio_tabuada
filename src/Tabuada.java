@@ -14,6 +14,7 @@ public class Tabuada {
         switch (opcaoSelecionada) {
             case 1: System.out.println("Qual numero você deseja calcular?");
                     int numeroEscolhido = sc.nextInt();
+                    System.out.println("A TABUADA DE " + numeroEscolhido + " é:");
                     for (int i = 1; i <= 10; i++) {
                         System.out.println(numeroEscolhido + " x " + i + " = " + numeroEscolhido * i);
                     }
@@ -29,6 +30,7 @@ public class Tabuada {
                         }
                         numeroInicial++;
                     }
+            default: System.out.println("Opção inválida. Reinicie e digite uma opção válida.");
         }
     }
 }
