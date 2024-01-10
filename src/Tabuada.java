@@ -19,7 +19,16 @@ public class Tabuada {
                         System.out.println(numeroEscolhido + " x " + i + " = " + numeroEscolhido * i);
                     }
             break;
-            case 2: System.out.println("Implementar 2..."); //estas variações ainda vou implementar
+            case 2: System.out.println("Vamos calcular a multiplicação entre dois números. Vamos lá!"); //estas variações ainda vou implementar
+                    System.out.println("Informe o primeiro numero:");
+                    int numeroUm = sc.nextInt();
+                    System.out.println("Informe o segundo numero:");
+                    int numeroDois = sc.nextInt();
+
+                    int resultadoMultiplicacao = numeroUm * numeroDois;
+
+                    System.out.println("O resultado de " + numeroUm + " x " + numeroDois + " é: " + resultadoMultiplicacao);
+
             break;
             case 3: int numeroInicial = 1;
 
