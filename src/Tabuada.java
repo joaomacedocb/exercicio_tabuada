@@ -27,7 +27,7 @@ public class Tabuada {
 
                     int resultadoMultiplicacao = numeroUm * numeroDois;
 
-                    System.out.println("O resultado de " + numeroUm + " x " + numeroDois + " é: " + resultadoMultiplicacao);
+                    System.out.println("O resultado de " + numeroUm + " x " + numeroDois + " é: " + resultadoMultiplicacao + ". Até logo!");
 
             break;
             case 3: int numeroInicial = 1;
